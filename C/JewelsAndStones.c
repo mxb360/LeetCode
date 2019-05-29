@@ -1,7 +1,7 @@
 
 
 int numJewelsInStones(char * J, char * S){
-    char j[256] = {0};
+    char j[128] = {0};
     int total = 0;
     
     for (int i = 0; J[i]; i++)
